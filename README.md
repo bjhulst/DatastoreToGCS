@@ -58,7 +58,7 @@ Take a look at the restore.sh script. The following flags need to be set:
 If you'd like the java program to block until the dataflow job is complete add
 the `--isBlocking` flag.
 
-For example say you wanted to restore a a backup ran on 11/29/2016 at 11:10:55 am on the entity kind
+For example say you wanted to restore a backup ran on 11/29/2016 at 11:10:55 am on the entity kind
 of ComicBooks. And you specified a backupGCSPrefix of
 `gs://superman-backups/datastore`.
 Your restore command would look like:
